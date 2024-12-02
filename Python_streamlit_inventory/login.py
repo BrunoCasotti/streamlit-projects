@@ -5,7 +5,7 @@ import loginController;
 
 def page_login():
 
-    st.logo("logo.png", size="large")
+    # st.logo("logo.png", size="large")
 
     with st.container(border=True):
         st.markdown("#### Enter your credentials")
