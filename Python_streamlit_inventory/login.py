@@ -5,9 +5,8 @@ import loginController;
 
 def page_login():
 
-    st.logo("gm-logo-azul.png", size="large")
+    st.logo("logo.png", size="large")
 
-    # Insert a form in the container
     with st.container(border=True):
         st.markdown("#### Enter your credentials")
         username = st.text_input("Username")
