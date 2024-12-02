@@ -28,7 +28,7 @@ else:
     )
 
     with st.sidebar:
-        st.logo("gm-logo-azul.png", size="large")
+        st.logo("logo.png", size="large")
 
         pg = st.navigation(
             {
